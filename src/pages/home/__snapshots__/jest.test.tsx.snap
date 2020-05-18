@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Home /> spec should render 1`] = `
+.emotion-2 {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 8em;
+  grid-auto-rows: 3em;
+  gap: 1em 1%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: start;
+}
+
+@media (min-width:600px) {
+  .emotion-2 {
+    grid-template-columns: 25% 25%;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-2 {
+    grid-template-columns: 25% 25% 25%;
+  }
+}
+
+.emotion-0 {
+  grid-column: 1;
+  grid-row: 0 / 2;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 2em;
+  color: #04080c;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-0 {
+    grid-column: 1 / span 3;
+  }
+}
+
+.emotion-1 {
+  justify-self: center;
+  font-size: 1em;
+  color: #778189;
+  grid-column: 1;
+}
+
+@media (min-width:600px) {
+  .emotion-1 {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-1 {
+    grid-column: 1 / span 3;
+  }
+}
+
+<div
+  class="emotion-2"
+  data-testid="home-container"
+>
+  <h1
+    class="emotion-0"
+  >
+    Hello World
+  </h1>
+  <p
+    class="emotion-1"
+  >
+    You are NOT logged in
+  </p>
+</div>
+`;

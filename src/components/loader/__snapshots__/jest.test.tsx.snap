@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Loader /> spec should display when triggered 1`] = `
+<div
+  class="css-i1mpon-Loader"
+  data-testid="loader-container"
+>
+  <p>
+    Loading ...
+  </p>
+</div>
+`;

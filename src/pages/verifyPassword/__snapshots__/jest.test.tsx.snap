@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<VerifyPassword /> spec should render 1`] = `
+.emotion-5 {
+  display: grid;
+  grid-template-columns: 90%;
+  grid-template-rows: 8em;
+  grid-auto-rows: 3em;
+  gap: 1em 1%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  justify-items: start;
+}
+
+@media (min-width:600px) {
+  .emotion-5 {
+    grid-template-columns: 25% 25%;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-5 {
+    grid-template-columns: 25% 25% 25%;
+  }
+}
+
+.emotion-0 {
+  grid-column: 1;
+  grid-row: 0 / 2;
+  justify-self: center;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  font-size: 2em;
+  color: #04080c;
+}
+
+@media (min-width:600px) {
+  .emotion-0 {
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-0 {
+    grid-column: 1 / span 3;
+  }
+}
+
+.emotion-1 {
+  justify-self: stretch;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  font-size: 1em;
+  padding: 0 1%;
+  color: #778189;
+}
+
+.emotion-4 {
+  justify-self: stretch;
+  -webkit-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  font-size: 1em;
+  color: #778189;
+  grid-column: 1;
+}
+
+@media (min-width:600px) {
+  .emotion-4 {
+    justify-self: stretch;
+    grid-column: 1 / span 2;
+  }
+}
+
+@media (min-width:920px) {
+  .emotion-4 {
+    justify-self: stretch;
+    grid-column: auto;
+  }
+}
+
+<div
+  class="emotion-5"
+  data-testid="verify-container"
+>
+  <h1
+    class="emotion-0"
+  >
+    Change Password
+  </h1>
+  <input
+    class="emotion-1"
+    data-testid="email-field"
+    id="email"
+    name="email"
+    placeholder="Email address"
+    required=""
+    type="text"
+    value=""
+  />
+  <input
+    class="emotion-1"
+    data-testid="code-field"
+    id="code"
+    name="code"
+    placeholder="Verification Code"
+    required=""
+    type="text"
+    value=""
+  />
+  <input
+    class="emotion-1"
+    data-testid="password-field"
+    id="inputPassword"
+    name="password"
+    placeholder="New Password"
+    required=""
+    type="password"
+    value=""
+  />
+  <button
+    class="emotion-4"
+    data-testid="submit-button"
+    type="button"
+  >
+    Change Password
+  </button>
+</div>
+`;

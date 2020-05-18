@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Nav /> spec should render 1`] = `
+.emotion-0 {
+  background-color: #04080c;
+}
+
+.emotion-0 ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  width: 100%;
+}
+
+.emotion-0 ul li {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-basis: 100%;
+  -ms-flex-preferred-size: 100%;
+  flex-basis: 100%;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+
+.emotion-0 ul li a {
+  text-align: center;
+  color: #cdd9e2;
+  padding: 0.5em;
+  -webkit-text-decoration: none;
+  text-decoration: none;
+}
+
+.emotion-0 ul li a:hover {
+  -webkit-text-decoration: underline;
+  text-decoration: underline;
+}
+
+<nav
+  class="emotion-0"
+  data-testid="nav-container"
+>
+  <ul>
+    <li>
+      <a
+        href="/"
+      >
+        Home
+      </a>
+    </li>
+    <li>
+      <a
+        href="/login"
+      >
+        Auth
+      </a>
+    </li>
+  </ul>
+</nav>
+`;

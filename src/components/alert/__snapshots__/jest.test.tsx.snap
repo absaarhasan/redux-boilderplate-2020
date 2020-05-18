@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Alert /> spec should render 1`] = `
+.emotion-0 {
+  width: 100%;
+  min-height: 100px;
+  position: relative;
+  text-align: center;
+}
+
+.emotion-0 h2 {
+  margin: 20px 0 0 0;
+  color: #ffffff;
+  display: inline-block;
+}
+
+.emotion-0 .close-btn {
+  position: absolute;
+  right: 0;
+  height: 20px;
+  width: 20px;
+}
+
+.emotion-0.success {
+  background-color: #488127;
+}
+
+.emotion-0.warn {
+  background-color: #f0a534;
+}
+
+.emotion-0.error {
+  background-color: #df142f;
+}
+
+<div
+  class="error emotion-0"
+  data-testid="alert-container"
+>
+  <button
+    class="close-btn"
+    data-testid="close-btn"
+    type="button"
+  >
+    X
+  </button>
+  <h2
+    data-testid="msg"
+  >
+    This is an eror.
+  </h2>
+</div>
+`;

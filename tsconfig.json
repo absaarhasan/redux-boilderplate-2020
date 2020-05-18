@@ -1,0 +1,33 @@
+{
+    "compilerOptions": {
+      "target": "esnext",
+      "outDir": "./dist/",
+      "allowSyntheticDefaultImports": true,
+      "moduleResolution": "node",
+      "module": "esnext",
+      "baseUrl": ".",
+      "allowJs": true,
+      "jsx": "react",
+      "paths": {
+        "Components/*": ["src/components/*"],
+        "Actions/*": ["src/actions/*"],
+        "Constants/*": ["src/constants/*"],
+        "Utils/*": ["src/utils/*"],
+        "Selectors/*": ["src/selectors/*"],
+        "Reducers/*": ["src/reducers/*"],
+        "Src/*": ["src/*"],
+      },
+      "plugins": [      {
+        "name": "typescript-styled-plugin",
+        "tags": [
+          "styled",
+          "css",
+          "sty"
+        ]
+      }]
+    },
+    "includes": [
+      "./typings/override.d.ts"
+   ],
+    "exclude": ["node_modules", "dist"]
+  }
